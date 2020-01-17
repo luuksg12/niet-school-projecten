@@ -28,7 +28,8 @@ function calculate_amount(amount, measurement) {
     }else{
         height_amount = amount;
     }
-    Math.round(height_amount);
+    
+    height_amount = Math.round(height_amount);
     return height_amount;
 
 }
